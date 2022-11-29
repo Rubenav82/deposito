@@ -60,24 +60,24 @@ public class CCuenta {
 
 	/**
 	 * Método retorna el interés de la cuenta
-	 * @return the tipoInterés (double)
+	 * @return the tipoInteres (double)
 	 */
-	public double getTipoInterés() {
-		return tipoInterés;
+	public double getTipoInteres() {
+		return tipoInteres;
 	}
 
 	/**
 	 * Método que establece el tipo de interés de la cuenta
-	 * @param tipoInterés the tipoInterés to set (double)
+	 * @param tipoInteres the tipoInteres to set (double)
 	 */
-	public void setTipoInterés(double tipoInterés) {
-		this.tipoInterés = tipoInterés;
+	public void setTipoInteres(double tipoInteres) {
+		this.tipoInteres = tipoInteres;
 	}
 
 	private String nombre;
     private String cuenta;
     private double saldo;
-    private double tipoInterés;
+    private double tipoInteres;
 
     /**
      * Constructor por defecto de la clase. Vacío.
